@@ -97,9 +97,9 @@ const teamMembers = [
   {
     id: 5,
     name: 'Varad Nishant Patil',
-    role: 'Backend Developer',
+    role: 'Full Stack Developer',
     photo: varadImg,
-    bio: 'Built the core backend architecture for Lakshya by designing secure APIs, managing database operations, and implementing scalable server-side functionality for reliable system performance.',
+    bio: 'Led the backend core architecture for Lakshya, designing the Spring Security and JWT-based authentication system, structuring the database, and building the foundational server-side setup — while also contributing to core parts of the frontend.',
     email: 'varadpatil466@gmail.com',
     linkedin: 'https://www.linkedin.com/in/varad-nishant-patil-4159822b0',
     github: 'https://github.com/Varadpatil1812',

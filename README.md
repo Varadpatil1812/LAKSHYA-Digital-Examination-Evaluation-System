@@ -170,7 +170,7 @@ LAKSHYA implements stateless authentication using **JWT (JSON Web Tokens)**, lay
 | Route pattern | Access |
 |---|---|
 | `/users/signup`, `/users/signin` | 🌍 Public |
-| `/online-exam/subjects`, `/online-exam/questions/subject/**` | 🌍 Public |
+| `/online-exam/subjects`, `/online-exam/questions/subject/**` | ✅ Any authenticated user |
 | `/swagger-ui/**`, `/v*/api-docs/**` | 🌍 Public |
 | `/online-exam/admin/**`, `/admin/**` | 🔒 `ROLE_ADMIN` only |
 | `/exam-results/**` | ✅ Any authenticated user |
@@ -262,7 +262,6 @@ EXP_TIMEOUT=86400000   # JWT validity in ms (24 hours)
 |--------|----------|--------|-------------|
 | `POST` | `/users/signup` | 🌍 Public | Register a new student |
 | `POST` | `/users/signin` | 🌍 Public | Authenticate, returns JWT |
-| `GET` | `/users/admin/all-students` | 🔒 Admin | List all students |
 
 ### 📝 Online Exam
 | Method | Endpoint | Access | Description |

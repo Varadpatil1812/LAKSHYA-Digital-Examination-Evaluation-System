@@ -173,9 +173,6 @@ Session management is **`STATELESS`** — no server-side session store; the JWT 
 ```bash
 cd Backend
 
-# create the database user (skip if it already exists)
-mysql -u root -p -e "CREATE USER 'varad'@'localhost' IDENTIFIED BY 'yourpassword'; GRANT ALL PRIVILEGES ON examsys.* TO 'varad'@'localhost';"
-
 mvn spring-boot:run
 ```
 
@@ -217,7 +214,7 @@ Key properties in `Backend/src/main/resources/application.properties`:
 
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/examsys?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
-spring.datasource.username=varad
+spring.datasource.username=CDAC
 spring.datasource.password=********
 
 spring.jpa.hibernate.ddl-auto=update

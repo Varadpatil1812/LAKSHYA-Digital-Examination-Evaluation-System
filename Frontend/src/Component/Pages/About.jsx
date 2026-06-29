@@ -70,6 +70,7 @@ const teamMembers = [
     name: 'Salonee Pravin Shirsat',
     role: 'Backend Developer',
     photo: saloneeImg,
+    email: 'shirsatsalonee510@gmail.com',
     bio: 'Built backend infrastructure including APIs, quiz processing, and score calculation modules. Implemented secure server-side functionality and database operations to ensure reliable platform performance.',
     linkedin: 'https://www.linkedin.com/in/salonee-shirsat-325517248',
     github: 'https://github.com/89285-Salonee',
